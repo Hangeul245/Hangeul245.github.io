@@ -316,7 +316,7 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
       <dl class="attrs">
         <div><dt>클래스</dt><dd>보안 엔지니어 (수련 중)</dd></div>
         <div><dt>소속</dt><dd>중부대학교 정보보호학과 23학번</dd></div>
-        <div><dt>길드</dt><dd>이스트소프트 KDT 인프라 보안 교육 · 인프라보안 가디언즈 11기</dd></div>
+        <div><dt>길드</dt><dd>화이트햇 스쿨 3기 · 이스트소프트 KDT 인프라 보안 (가디언즈 11기)</dd></div>
         <div><dt>특기</dt><dd>소스코드 보안 · 커널 · 인프라 · LLM 보안</dd></div>
       </dl>
       <div class="bars">
@@ -327,8 +327,8 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
       </div>
       <div class="dialog" id="dialog" role="button" tabindex="0" aria-label="대화 넘기기">
         <span class="speaker">임한글</span>
-        <p class="line" id="line" aria-live="polite">안녕하세요! 보안을 직접 만들어 보고, 뚫어 보고, 막아 보는 임한글입니다.</p>
-        <span class="next"><span id="page">1/3</span><b>▼</b></span>
+        <p class="line" id="line" aria-live="polite">제 진로를 바꾼 건 악성 프로그램 하나였습니다.</p>
+        <span class="next"><span id="page">1/4</span><b>▼</b></span>
       </div>
     </div>
   </section>
@@ -478,8 +478,8 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
 
         <article id="q8" role="tabpanel" aria-labelledby="t8" hidden>
           <div class="q-type"><span>파티 퀘스트 · 버그바운티</span><span>2025 · WHS(화이트햇 스쿨) 3기 프로젝트</span></div>
-          <h3>윈도우 버그바운티 <span class="award">★ 우수 프로젝트</span><small>Windows 환경에서 실제 취약점을 찾아내는 버그바운티 프로젝트</small></h3>
-          <p class="q-story">교육을 넘어 실전으로. Windows에서 버그를 찾고, 그 버그가 실제로 공격에 쓰일 수 있는지까지 확인하라.</p>
+          <h3>윈도우 버그바운티 <span class="award">★ 우수 프로젝트</span><small>Windows를 대상으로 한 화이트햇 스쿨 버그바운티 프로젝트</small></h3>
+          <p class="q-story">교육을 넘어 실전으로. 실제 서비스에서 버그를 찾는 법과, 찾은 버그가 공격으로 이어질 수 있는지 판단하는 법을 익혀라.</p>
           <div>
             <p class="q-label">달성 목표</p>
             <ul class="objectives">
@@ -807,9 +807,10 @@ var CONFIG = {
 /* 대화창 */
 (function () {
   var lines = [
-    '안녕하세요! 보안을 직접 만들어 보고, 뚫어 보고, 막아 보는 임한글입니다.',
-    '코드 한 줄에서 취약점을 잡는 도구도 만들고, 커널에서 랜섬웨어도 막아 봤어요.',
-    '아래 퀘스트 로그에서 지금까지의 모험을 확인해 주세요!'
+    '제 진로를 바꾼 건 악성 프로그램 하나였습니다.',
+    '그날 멈춘 화면 앞에서 정했어요. 다음엔 제가 먼저 찾아내겠다고요.',
+    '판단은 제가, 속도는 AI가. 로그 속 위협을 직접 읽고, AI를 무기로 활용하는 법을 익히고 있습니다.',
+    '그 다짐이 어디까지 왔는지, 아래 퀘스트 로그에서 확인해 주세요.'
   ];
   var box = document.getElementById('dialog'), el = document.getElementById('line'), pg = document.getElementById('page');
   var i = 0, timer = null, typing = false;
