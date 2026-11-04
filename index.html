@@ -189,7 +189,7 @@ a:hover { color: var(--text); }
 .slot.empty { border-style: dashed; color: var(--line); }
 
 /* 세이브 포인트 */
-.saves { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); position: relative; }
+.saves { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); position: relative; }
 .saves::before { content: ""; position: absolute; left: 6%; right: 6%; top: 27px; border-top: 3px dashed var(--line); }
 .saves li { position: relative; display: grid; gap: 10px; justify-items: center; text-align: center; padding: 0 8px; }
 .saves .node { width: 54px; height: 54px; display: grid; place-items: center; background: var(--panel); border: 3px solid var(--line); box-shadow: 3px 3px 0 var(--edge); font-family: var(--px); font-size: 11px; color: var(--muted); z-index: 1; }
@@ -259,6 +259,8 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
   .r-meta { white-space: normal; }
   .saves { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+.btn[hidden] { display: none; }
 </style>
 </head>
 <body>
@@ -293,7 +295,7 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
       <dl class="attrs">
         <div><dt>클래스</dt><dd>보안 엔지니어 (수련 중)</dd></div>
         <div><dt>소속</dt><dd>중부대학교 정보보호학과 23학번</dd></div>
-        <div><dt>길드</dt><dd>이스트소프트 인프라 보안 부트캠프</dd></div>
+        <div><dt>길드</dt><dd>이스트소프트 KDT 인프라 보안 교육 · 인프라보안 가디언즈 11기</dd></div>
         <div><dt>특기</dt><dd>소스코드 보안 · 커널 · 인프라 · LLM 보안</dd></div>
       </dl>
       <div class="bars">
@@ -318,10 +320,11 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
     </div>
     <div class="panel quests">
       <div class="q-list" role="tablist" aria-label="퀘스트 목록" aria-orientation="vertical">
-        <p class="q-group">파티 퀘스트 <span>4</span></p>
+        <p class="q-group">파티 퀘스트 <span>5</span></p>
         <button class="q-btn" role="tab" aria-selected="true" aria-controls="q1" id="t1"><span class="cur">▶</span><span class="nm">SCSP</span><span class="tp"><span class="clear">CLEAR</span>2인 파티 · 2026.05</span></button>
-        <button class="q-btn" role="tab" aria-selected="false" aria-controls="q2" id="t2" tabindex="-1"><span class="cur">▶</span><span class="nm">오픈마켓 보안 고도화 ★</span><span class="tp"><span class="clear">CLEAR</span>부트캠프 · 2026</span></button>
-        <button class="q-btn" role="tab" aria-selected="false" aria-controls="q3" id="t3" tabindex="-1"><span class="cur">▶</span><span class="nm">프랜차이즈 IDC 구축</span><span class="tp"><span class="clear">CLEAR</span>부트캠프 · 2026</span></button>
+        <button class="q-btn" role="tab" aria-selected="false" aria-controls="q2" id="t2" tabindex="-1"><span class="cur">▶</span><span class="nm">오픈마켓 보안 고도화 ★</span><span class="tp"><span class="clear">CLEAR</span>팀장 · 2026</span></button>
+        <button class="q-btn" role="tab" aria-selected="false" aria-controls="q3" id="t3" tabindex="-1"><span class="cur">▶</span><span class="nm">프랜차이즈 IDC 구축 ★</span><span class="tp"><span class="clear">CLEAR</span>부트캠프 · 2026</span></button>
+        <button class="q-btn" role="tab" aria-selected="false" aria-controls="q8" id="t8" tabindex="-1"><span class="cur">▶</span><span class="nm">윈도우 버그바운티 ★</span><span class="tp"><span class="clear">CLEAR</span>WHS 3기 · 2025</span></button>
         <button class="q-btn" role="tab" aria-selected="false" aria-controls="q4" id="t4" tabindex="-1"><span class="cur">▶</span><span class="nm">Kapston</span><span class="tp"><span class="clear">CLEAR</span>캡스톤 대회 · 2025</span></button>
         <p class="q-group">솔로 퀘스트 <span>3</span></p>
         <button class="q-btn" role="tab" aria-selected="false" aria-controls="q5" id="t5" tabindex="-1"><span class="cur">▶</span><span class="nm">커널 드라이버 수련</span><span class="tp"><span class="clear">CLEAR</span>솔로 · 2025.05</span></button>
@@ -365,12 +368,13 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
         </article>
 
         <article id="q2" role="tabpanel" aria-labelledby="t2" hidden>
-          <div class="q-type"><span>파티 퀘스트 · 내 역할 WAS</span><span>2026 · 이스트소프트 부트캠프 2차 · 6조</span></div>
-          <h3>오픈마켓 서비스 보안 고도화 <span class="award">★ 우수 프로젝트</span><small>쿠팡형 오픈마켓의 인프라를 짓고, 직접 공격하고, 막기</small></h3>
+          <div class="q-type"><span>파티 퀘스트 · 내 역할 팀장 · WAS</span><span>2026 · 이스트소프트 KDT 인프라 보안 교육 2차 · 6조</span></div>
+          <h3>오픈마켓 서비스 보안 고도화 <span class="award">★ 우수 프로젝트 2위</span><small>쿠팡형 오픈마켓의 인프라를 짓고, 직접 공격하고, 막기</small></h3>
           <p class="q-story">새 기능보다 꼼꼼한 보안이 목표. 시나리오 시연에서 멈추지 않고 점검표를 만들어 한 발 더 고도화했다.</p>
           <div>
             <p class="q-label">내가 달성한 목표</p>
             <ul class="objectives">
+              <li><span><strong>팀장</strong>으로 업무 분배, 일정 관리, 기술적 의사결정, 팀원 간 의견 조율, 산출물 통합</span></li>
               <li><span>구매자와 판매자의 권한이 달라 <strong>WAS를 두 대로 분리</strong> 구축 (Debian 13, Tomcat 10, JSP API)</span></li>
               <li><span>bcrypt(cost 12) 비밀번호 해싱, 로그인 5회 실패 시 잠금</span></li>
               <li><span>JNDI로 DB 접속 정보 분리, 설정 파일 권한 600, 모든 접근 로그 기록</span></li>
@@ -379,7 +383,7 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
           </div>
           <div>
             <p class="q-label">획득 보상</p>
-            <div class="rewards"><span>Tomcat</span><span>JSP</span><span>MariaDB</span><span>Wazuh</span><span>Kali Linux</span><span>업적: 우수 프로젝트</span></div>
+            <div class="rewards"><span>Tomcat</span><span>JSP</span><span>MariaDB</span><span>Wazuh</span><span>Kali Linux</span><span>업적: 우수 프로젝트 2위</span><span>업적: 파티 리더</span></div>
           </div>
           <div class="q-foot">
             <div class="btns">
@@ -391,8 +395,8 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
         </article>
 
         <article id="q3" role="tabpanel" aria-labelledby="t3" hidden>
-          <div class="q-type"><span>파티 퀘스트 · 내 역할 IDC 서버팜</span><span>2026 · 이스트소프트 부트캠프 1차</span></div>
-          <h3>프랜차이즈 매장 지원 서비스 IDC 구축<small>AI로 매출과 재고를 분석하는 통합 매장 지원 서비스의 서버팜</small></h3>
+          <div class="q-type"><span>파티 퀘스트 · 내 역할 IDC 서버팜</span><span>2026 · 이스트소프트 KDT 인프라 보안 교육 1차</span></div>
+          <h3>프랜차이즈 매장 지원 서비스 IDC 구축 <span class="award">★ 우수 프로젝트 2위</span><small>AI로 매출과 재고를 분석하는 통합 매장 지원 서비스의 서버팜</small></h3>
           <p class="q-story">IDC, 클라우드, 어플라이언스, 웹 서버로 나눠 맡은 파티에서 IDC 안의 DB와 WAS를 세우고 클라우드와 안전하게 이어라.</p>
           <div>
             <p class="q-label">내가 달성한 목표</p>
@@ -405,13 +409,31 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
           </div>
           <div>
             <p class="q-label">획득 보상</p>
-            <div class="rewards"><span>FastAPI</span><span>MariaDB</span><span>Redis</span><span>WireGuard</span><span>ufw</span><span>AWS</span></div>
+            <div class="rewards"><span>FastAPI</span><span>MariaDB</span><span>Redis</span><span>WireGuard</span><span>ufw</span><span>AWS</span><span>업적: 우수 프로젝트 2위</span></div>
           </div>
           <div class="q-foot">
             <div class="btns">
               <a class="btn main" href="https://hangeulsprogram.tistory.com/46" target="_blank" rel="noopener">공략 보기</a>
             </div>
             <p class="q-note"><b>TIP</b> DNS부터 확인하고, 키 등록 후 저장소 추가</p>
+          </div>
+        </article>
+
+        <article id="q8" role="tabpanel" aria-labelledby="t8" hidden>
+          <div class="q-type"><span>파티 퀘스트 · 버그바운티</span><span>2025 · WHS(화이트햇 스쿨) 3기 프로젝트</span></div>
+          <h3>윈도우 버그바운티 <span class="award">★ 우수 프로젝트</span><small>Windows 환경에서 실제 취약점을 찾아내는 버그바운티 프로젝트</small></h3>
+          <p class="q-story">교육을 넘어 실전으로. Windows에서 버그를 찾고, 그 버그가 실제로 공격에 쓰일 수 있는지까지 확인하라.</p>
+          <div>
+            <p class="q-label">달성 목표</p>
+            <ul class="objectives">
+              <li><span>Windows 대상 <strong>버그바운티</strong> 프로젝트 수행</span></li>
+              <li><span>사전 수련: 로직 버그 패턴, 버그 발견 시 익스플로잇 가능성 확인 방법 학습</span></li>
+              <li><span>WHS 3기 <strong>우수 프로젝트</strong> 선정</span></li>
+            </ul>
+          </div>
+          <div>
+            <p class="q-label">획득 보상</p>
+            <div class="rewards"><span>버그바운티</span><span>Windows 취약점 분석</span><span>업적: 화이트햇의 인정</span></div>
           </div>
         </article>
 
@@ -526,12 +548,15 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
       <p id="ach-sum">달성 5 · 진행 중 1</p>
     </div>
     <div class="achv">
-      <div class="ach gold"><span class="ico">★</span><div><h4>우수 프로젝트</h4><p>부트캠프 2차 프로젝트, Wazuh 도입으로 선정</p></div></div>
+      <div class="ach gold"><span class="ico">×2</span><div><h4>우수 프로젝트 2연속</h4><p>KDT 인프라 보안 교육 1차·2차 팀 프로젝트 모두 우수 프로젝트 2위</p></div></div>
+      <div class="ach gold"><span class="ico">W</span><div><h4>화이트햇의 인정</h4><p>WHS(화이트햇 스쿨) 3기 우수 프로젝트 수상 · 윈도우 버그바운티</p></div></div>
+      <div class="ach"><span class="ico">L</span><div><h4>파티 리더</h4><p>2차 프로젝트 팀장으로 일정·업무 분배·통합을 맡음</p></div></div>
       <div class="ach"><span class="ico">×2</span><div><h4>루키의 귀환</h4><p>정보보호루키 밋업데이 2025 · 2026 연속 참석</p></div></div>
       <div class="ach" id="ach-blog"><span class="ico">40</span><div><h4>성실한 기록자</h4><p>블로그 글 40편 돌파, 현재 44편</p></div></div>
       <div class="ach" id="ach-commit"><span class="ico">98</span><div><h4>커밋 장인</h4><p>한 저장소에 커밋 98회 (Kapston)</p></div></div>
       <div class="ach"><span class="ico">6</span><div><h4>취약점 사냥꾼</h4><p>SCSP로 웹 취약점 6종 탐지</p></div></div>
-      <div class="ach locked"><span class="ico">?</span><div><h4>노션 정리 완료</h4><p>진행 중… 곧 열려요</p></div></div>
+      <div class="ach"><span class="ico">2</span><div><h4>자격증 수집가</h4><p>프로그래밍기능사 (2021) · OPIc IM (2026)</p></div></div>
+      <div class="ach" id="ach-notion"><span class="ico">N</span><div><h4>노션 정리 완료</h4><p>공부 기록과 포트폴리오를 노션에 정리</p></div></div>
     </div>
   </section>
 
@@ -563,32 +588,38 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
     </div>
     <div class="panel inv">
       <div>
-        <h3>보안 스킬 <span>9</span></h3>
+        <h3>보안 스킬 <span>12</span></h3>
         <div class="slots">
           <span class="slot" tabindex="0">Taint Analysis<span class="tip">획득처 · SCSP</span></span>
           <span class="slot" tabindex="0">웹 취약점 진단<span class="tip">획득처 · SCSP, 오픈마켓</span></span>
           <span class="slot" tabindex="0">커널 드라이버<span class="tip">획득처 · 커널 수련, Kapston</span></span>
           <span class="slot" tabindex="0">리버싱<span class="tip">획득처 · abex crackme</span></span>
+          <span class="slot" tabindex="0">버그바운티<span class="tip">획득처 · WHS 윈도우 버그바운티</span></span>
           <span class="slot" tabindex="0">패킷 분석<span class="tip">획득처 · 파이썬 네트워크 도구</span></span>
           <span class="slot" tabindex="0">Wazuh<span class="tip">획득처 · 부트캠프 1·2차</span></span>
+          <span class="slot" tabindex="0">Snort<span class="tip">획득처 · 인프라 보안 교육</span></span>
+          <span class="slot" tabindex="0">Zabbix<span class="tip">획득처 · 인프라 보안 교육</span></span>
           <span class="slot" tabindex="0">Kali Linux<span class="tip">획득처 · 오픈마켓</span></span>
           <span class="slot" tabindex="0">KISA 진단 가이드<span class="tip">획득처 · 오픈마켓</span></span>
           <span class="slot" tabindex="0">DRM · DLP<span class="tip">획득처 · 오픈마켓</span></span>
         </div>
       </div>
       <div>
-        <h3>인프라 장비 <span>10</span></h3>
+        <h3>인프라 장비 <span>13</span></h3>
         <div class="slots">
           <span class="slot" tabindex="0">Debian<span class="tip">획득처 · 오픈마켓</span></span>
           <span class="slot" tabindex="0">Ubuntu<span class="tip">획득처 · IDC 구축</span></span>
+          <span class="slot" tabindex="0">Rocky Linux<span class="tip">획득처 · 인프라 보안 교육</span></span>
           <span class="slot" tabindex="0">Tomcat<span class="tip">획득처 · 오픈마켓</span></span>
           <span class="slot" tabindex="0">FastAPI<span class="tip">획득처 · IDC 구축</span></span>
           <span class="slot" tabindex="0">MariaDB<span class="tip">획득처 · 부트캠프 1·2차</span></span>
+          <span class="slot" tabindex="0">MySQL<span class="tip">획득처 · 전공 수업</span></span>
           <span class="slot" tabindex="0">Redis<span class="tip">획득처 · IDC 구축</span></span>
           <span class="slot" tabindex="0">WireGuard<span class="tip">획득처 · IDC 구축</span></span>
           <span class="slot" tabindex="0">ufw<span class="tip">획득처 · IDC 구축</span></span>
           <span class="slot" tabindex="0">Docker<span class="tip">획득처 · Kapston</span></span>
           <span class="slot" tabindex="0">AWS<span class="tip">획득처 · IDC 구축</span></span>
+          <span class="slot" tabindex="0">VirtualBox · VMware<span class="tip">획득처 · 실습 환경 전반</span></span>
         </div>
       </div>
       <div>
@@ -623,13 +654,14 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
       <h2 class="px"><small>SAVE POINTS</small>세이브 포인트</h2>
     </div>
     <ol class="saves">
-      <li><span class="node">01</span><time>2023</time><span>정보보호학과 입학</span></li>
-      <li><span class="node">02</span><time>2023.08</time><span>블로그 첫 기록</span></li>
-      <li><span class="node">03</span><time>2025</time><span>캡스톤 대회 Kapston 출품</span></li>
-      <li><span class="node">04</span><time>2025.09</time><span>LLM 보안 수련 시작</span></li>
-      <li><span class="node">05</span><time>2026.05</time><span>SCSP 개발</span></li>
-      <li><span class="node">06</span><time>2026</time><span>부트캠프 우수 프로젝트</span></li>
-      <li><span class="node">NOW</span><time>2026.08</time><span>루키 밋업데이 2회째 참석</span></li>
+      <li><span class="node">01</span><time>2021.10</time><span>프로그래밍기능사 취득</span></li>
+      <li><span class="node">02</span><time>2023</time><span>중부대 정보보호학과 입학</span></li>
+      <li><span class="node">03</span><time>2023.08</time><span>블로그 첫 기록</span></li>
+      <li><span class="node">04</span><time>2025</time><span>캡스톤 대회 Kapston 출품</span></li>
+      <li><span class="node">05</span><time>2025.09</time><span>WHS 3기 수료 · 우수 프로젝트</span></li>
+      <li><span class="node">06</span><time>2026.05</time><span>SCSP 개발</span></li>
+      <li><span class="node">07</span><time>2026.09</time><span>KDT 인프라 보안 수료 · 우수 2회</span></li>
+      <li><span class="node">NOW</span><time>2026.10</time><span>OPIc IM 취득</span></li>
     </ol>
   </section>
 
@@ -639,7 +671,7 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
     <div class="btns">
       <a class="btn main" href="https://github.com/Hangeul245" target="_blank" rel="noopener">GitHub</a>
       <a class="btn" href="https://hangeulsprogram.tistory.com/" target="_blank" rel="noopener">Tistory</a>
-      <span class="btn locked" title="정리 중이에요">Notion · LOCKED</span>
+      <a class="btn" id="notion-btn" href="#" target="_blank" rel="noopener" hidden>Notion</a>
     </div>
   </section>
 
@@ -654,7 +686,8 @@ footer { padding: 40px 0 48px; display: flex; justify-content: space-between; ga
 /* ───────── 설정: 여기만 바꾸면 돼요 ───────── */
 var CONFIG = {
   birthday: '2005-10-16',      // 생일. 레벨 = 만 나이, 생일마다 레벨업
-  githubUser: 'Hangeul245'
+  githubUser: 'Hangeul245',
+  notion: 'https://garnet-gray-f6e.notion.site/40e3d16f572f812fae52e80887bf7880'                   // 노션 공개 링크. 비워 두면 Notion 버튼이 숨겨져요
 };
 
 /* 도트 캐릭터: 회색 후드티에 청바지, 머리 위 새싹 (24×24, 왼쪽 절반을 그리고 좌우 대칭) */
@@ -755,7 +788,7 @@ var CONFIG = {
       if (!d) return; e.preventDefault(); select(tabs[(n + d + tabs.length) % tabs.length], true);
     });
   });
-  var party = document.querySelectorAll('[aria-controls="q1"],[aria-controls="q2"],[aria-controls="q3"],[aria-controls="q4"]').length;
+  var party = document.querySelectorAll('[aria-controls="q1"],[aria-controls="q2"],[aria-controls="q3"],[aria-controls="q4"],[aria-controls="q8"]').length;
   document.getElementById('st-quest').textContent = '파티 ' + party + ' · 솔로 ' + (tabs.length - party);
 })();
 
@@ -825,6 +858,9 @@ var CONFIG = {
   }
 
   render(seed);
+
+  /* 노션 링크: CONFIG.notion에 주소가 있으면 버튼을 보여줌 */
+  if (CONFIG.notion) { var nb = document.getElementById('notion-btn'); nb.href = CONFIG.notion; nb.hidden = false; }
 
   /* 1) 6시간마다 갱신되는 data.json  2) GitHub는 방문할 때마다 실시간으로 */
   if (!window.fetch) return;
