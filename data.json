@@ -5,35 +5,156 @@
     "since": "2023-08-30",
     "total": 44,
     "categories": [
-      { "name": "Reversing", "count": 11 },
-      { "name": "C언어", "count": 9 },
-      { "name": "Linux", "count": 4 },
-      { "name": "LLM", "count": 4 },
-      { "name": "Project", "count": 4 },
-      { "name": "Python", "count": 3 },
-      { "name": "System hacked", "count": 3 },
-      { "name": "세미나", "count": 1 }
+      {
+        "name": "Reversing",
+        "count": 11
+      },
+      {
+        "name": "C언어",
+        "count": 9
+      },
+      {
+        "name": "Linux",
+        "count": 4
+      },
+      {
+        "name": "LLM",
+        "count": 4
+      },
+      {
+        "name": "Project",
+        "count": 4
+      },
+      {
+        "name": "Python",
+        "count": 3
+      },
+      {
+        "name": "System hacked",
+        "count": 3
+      },
+      {
+        "name": "세미나",
+        "count": 1
+      }
     ],
     "recent": [
-      { "title": "인프라 보안 2차 PJ - 보안 고도화", "url": "https://hangeulsprogram.tistory.com/50", "date": "2026-08-03", "category": "Project" },
-      { "title": "인프라 보안 2차 PJ - WAS 구축", "url": "https://hangeulsprogram.tistory.com/49", "date": "2026-08-03", "category": "Project" },
-      { "title": "정보보호루키 2026 밋업데이 후기", "url": "https://hangeulsprogram.tistory.com/48", "date": "2026-08-03", "category": "세미나" },
-      { "title": "개인 프로젝트 - SCSP", "url": "https://hangeulsprogram.tistory.com/47", "date": "2026-05-29", "category": "Project" },
-      { "title": "인프라 보안 1차 PJ - Was / DB 서버 구축", "url": "https://hangeulsprogram.tistory.com/46", "date": "2026-05-29", "category": "Project" },
-      { "title": "Claude Cowork ? - 개인적 견해", "url": "https://hangeulsprogram.tistory.com/45", "date": "2026-02-09", "category": "LLM" },
-      { "title": "NyarchLinux 2 - Nyarch Assistant", "url": "https://hangeulsprogram.tistory.com/44", "date": "2026-02-08", "category": "Linux" }
+      {
+        "title": "인프라 보안 2차 PJ - 보안 고도화",
+        "url": "https://hangeulsprogram.tistory.com/50",
+        "date": "2026-08-03",
+        "category": "Project"
+      },
+      {
+        "title": "인프라 보안 2차 PJ - WAS 구축",
+        "url": "https://hangeulsprogram.tistory.com/49",
+        "date": "2026-08-03",
+        "category": "Project"
+      },
+      {
+        "title": "정보보호루키 2026 밋업데이 후기",
+        "url": "https://hangeulsprogram.tistory.com/48",
+        "date": "2026-08-03",
+        "category": "세미나"
+      },
+      {
+        "title": "개인 프로젝트 - SCSP",
+        "url": "https://hangeulsprogram.tistory.com/47",
+        "date": "2026-05-29",
+        "category": "Project"
+      },
+      {
+        "title": "인프라 보안 1차 PJ - Was / DB 서버 구축",
+        "url": "https://hangeulsprogram.tistory.com/46",
+        "date": "2026-05-29",
+        "category": "Project"
+      },
+      {
+        "title": "Claude Cowork ? - 개인적 견해",
+        "url": "https://hangeulsprogram.tistory.com/45",
+        "date": "2026-02-09",
+        "category": "LLM"
+      },
+      {
+        "title": "NyarchLinux 2 - Nyarch Assistant",
+        "url": "https://hangeulsprogram.tistory.com/44",
+        "date": "2026-02-08",
+        "category": "Linux"
+      },
+      {
+        "title": "NyarchLinux 1 - 설치",
+        "url": "https://hangeulsprogram.tistory.com/43",
+        "date": "2026-02-07",
+        "category": "Linux"
+      }
     ]
   },
   "github": {
     "user": "Hangeul245",
-    "publicRepos": 5,
+    "publicRepos": 6,
     "repos": [
-      { "name": "SCSP", "url": "https://github.com/Hangeul245/SCSP", "description": "VScode extension for Source code security", "language": "TypeScript", "commits": null },
-      { "name": "Kapston", "url": "https://github.com/Hangeul245/Kapston", "description": "클라우드 환경의 랜섬웨어 차단 서비스 구축", "language": "C", "commits": 98 },
-      { "name": "Forge_Server", "url": "https://github.com/Hangeul245/Forge_Server", "description": "", "language": "JavaScript", "commits": 2 },
-      { "name": "Forge_Client", "url": "https://github.com/Hangeul245/Forge_Client", "description": "", "language": "JavaScript", "commits": 1 },
-      { "name": "WH_Network", "url": "https://github.com/Hangeul245/WH_Network", "description": "", "language": "C", "commits": 1 }
-    ]
+      {
+        "name": "Hangeul245.github.io",
+        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
+        "description": "포트폴리오",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-04",
+        "commits": 2
+      },
+      {
+        "name": "SCSP",
+        "url": "https://github.com/Hangeul245/SCSP",
+        "description": "VScode extension for Source code security",
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-05-16",
+        "commits": 11
+      },
+      {
+        "name": "Kapston",
+        "url": "https://github.com/Hangeul245/Kapston",
+        "description": "클라우드 환경에서의 랜섬웨어 차단 서비스 구축",
+        "language": "C",
+        "stars": 0,
+        "forks": 1,
+        "pushedAt": "2025-06-17",
+        "commits": 98
+      },
+      {
+        "name": "WH_Network",
+        "url": "https://github.com/Hangeul245/WH_Network",
+        "description": "",
+        "language": "C",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2025-04-06",
+        "commits": 1
+      },
+      {
+        "name": "Forge_Client",
+        "url": "https://github.com/Hangeul245/Forge_Client",
+        "description": "",
+        "language": "JavaScript",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2025-03-24",
+        "commits": 1
+      },
+      {
+        "name": "Forge_Server",
+        "url": "https://github.com/Hangeul245/Forge_Server",
+        "description": "",
+        "language": "JavaScript",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2025-03-24",
+        "commits": 2
+      }
+    ],
+    "followers": 1
   },
-  "updatedAt": "2026-10-30"
+  "updatedAt": "2026-11-04"
 }
