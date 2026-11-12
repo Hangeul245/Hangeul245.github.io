@@ -1,4 +1,4 @@
-# 임한글 | Security Engineer
+# 임한글
 
 - 🌱 웹 포트폴리오: https://hangeul245.github.io
 - 📝 기술 블로그: https://hangeulsprogram.tistory.com
