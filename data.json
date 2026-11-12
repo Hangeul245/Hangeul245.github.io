@@ -3,7 +3,7 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 44,
+    "total": 45,
     "categories": [
       {
         "name": "Reversing",
@@ -14,15 +14,15 @@
         "count": 9
       },
       {
+        "name": "Project",
+        "count": 5
+      },
+      {
         "name": "Linux",
         "count": 4
       },
       {
         "name": "LLM",
-        "count": 4
-      },
-      {
-        "name": "Project",
         "count": 4
       },
       {
@@ -39,6 +39,12 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트 - AIDR(1)",
+        "url": "https://hangeulsprogram.tistory.com/51",
+        "date": "2026-11-12",
+        "category": "Project"
+      },
       {
         "title": "인프라 보안 2차 PJ - 보안 고도화",
         "url": "https://hangeulsprogram.tistory.com/50",
@@ -80,19 +86,23 @@
         "url": "https://hangeulsprogram.tistory.com/44",
         "date": "2026-02-08",
         "category": "Linux"
-      },
-      {
-        "title": "NyarchLinux 1 - 설치",
-        "url": "https://hangeulsprogram.tistory.com/43",
-        "date": "2026-02-07",
-        "category": "Linux"
       }
     ]
   },
   "github": {
     "user": "Hangeul245",
-    "publicRepos": 6,
+    "publicRepos": 8,
     "repos": [
+      {
+        "name": "Hangeul245",
+        "url": "https://github.com/Hangeul245/Hangeul245",
+        "description": "",
+        "language": "",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-12",
+        "commits": 3
+      },
       {
         "name": "Hangeul245.github.io",
         "url": "https://github.com/Hangeul245/Hangeul245.github.io",
@@ -101,7 +111,17 @@
         "stars": 0,
         "forks": 0,
         "pushedAt": "2026-11-12",
-        "commits": 36
+        "commits": 38
+      },
+      {
+        "name": "AIDR",
+        "url": "https://github.com/Hangeul245/AIDR",
+        "description": "AI 기반 통합 백신",
+        "language": "",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-12",
+        "commits": 2
       },
       {
         "name": "SCSP",
