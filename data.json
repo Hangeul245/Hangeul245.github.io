@@ -94,6 +94,16 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "Hangeul245.github.io",
+        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
+        "description": "포트폴리오",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-12",
+        "commits": 39
+      },
+      {
         "name": "Hangeul245",
         "url": "https://github.com/Hangeul245/Hangeul245",
         "description": "",
@@ -102,16 +112,6 @@
         "forks": 0,
         "pushedAt": "2026-11-12",
         "commits": 3
-      },
-      {
-        "name": "Hangeul245.github.io",
-        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
-        "description": "포트폴리오",
-        "language": "HTML",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-11-12",
-        "commits": 38
       },
       {
         "name": "AIDR",
@@ -176,5 +176,5 @@
     ],
     "followers": 1
   },
-  "updatedAt": "2026-11-12"
+  "updatedAt": "2026-11-13"
 }
