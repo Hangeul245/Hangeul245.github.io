@@ -3,7 +3,7 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 45,
+    "total": 46,
     "categories": [
       {
         "name": "Reversing",
@@ -15,7 +15,7 @@
       },
       {
         "name": "Project",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Linux",
@@ -39,6 +39,12 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트 - AIDR(2: PE 파일 구조)",
+        "url": "https://hangeulsprogram.tistory.com/52",
+        "date": "2026-11-14",
+        "category": "Project"
+      },
       {
         "title": "개인 프로젝트 - AIDR(1)",
         "url": "https://hangeulsprogram.tistory.com/51",
@@ -80,12 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/45",
         "date": "2026-02-09",
         "category": "LLM"
-      },
-      {
-        "title": "NyarchLinux 2 - Nyarch Assistant",
-        "url": "https://hangeulsprogram.tistory.com/44",
-        "date": "2026-02-08",
-        "category": "Linux"
       }
     ]
   },
@@ -101,7 +101,7 @@
         "stars": 0,
         "forks": 0,
         "pushedAt": "2026-11-14",
-        "commits": 42
+        "commits": 43
       },
       {
         "name": "Hangeul245",
@@ -176,5 +176,5 @@
     ],
     "followers": 1
   },
-  "updatedAt": "2026-11-14"
+  "updatedAt": "2026-11-15"
 }
