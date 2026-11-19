@@ -3,18 +3,18 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 51,
+    "total": 52,
     "categories": [
       {
         "name": "Reversing",
         "count": 11
       },
       {
-        "name": "C언어",
-        "count": 9
+        "name": "Project",
+        "count": 10
       },
       {
-        "name": "Project",
+        "name": "C언어",
         "count": 9
       },
       {
@@ -39,6 +39,12 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트 - AIDR(8: Minifilter)",
+        "url": "https://hangeulsprogram.tistory.com/58",
+        "date": "2026-11-19",
+        "category": "Project"
+      },
       {
         "title": "개인 프로젝트 - AIDR(7: LLM 테스트 2탄)",
         "url": "https://hangeulsprogram.tistory.com/57",
@@ -80,12 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/51",
         "date": "2026-11-12",
         "category": "Project"
-      },
-      {
-        "title": "인프라 보안 2차 PJ - 보안 고도화",
-        "url": "https://hangeulsprogram.tistory.com/50",
-        "date": "2026-08-03",
-        "category": "Project"
       }
     ]
   },
@@ -100,8 +100,8 @@
         "language": "HTML",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-11-18",
-        "commits": 52
+        "pushedAt": "2026-11-19",
+        "commits": 53
       },
       {
         "name": "Hangeul245",
