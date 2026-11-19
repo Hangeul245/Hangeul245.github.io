@@ -3,7 +3,7 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 52,
+    "total": 53,
     "categories": [
       {
         "name": "Reversing",
@@ -11,7 +11,7 @@
       },
       {
         "name": "Project",
-        "count": 10
+        "count": 11
       },
       {
         "name": "C언어",
@@ -39,6 +39,12 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트 - AIDR(9: 논문 복기 및 재정비)",
+        "url": "https://hangeulsprogram.tistory.com/59",
+        "date": "2026-11-19",
+        "category": "Project"
+      },
       {
         "title": "개인 프로젝트 - AIDR(8: Minifilter)",
         "url": "https://hangeulsprogram.tistory.com/58",
@@ -80,12 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/52",
         "date": "2026-11-14",
         "category": "Project"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(1)",
-        "url": "https://hangeulsprogram.tistory.com/51",
-        "date": "2026-11-12",
-        "category": "Project"
       }
     ]
   },
@@ -101,7 +101,7 @@
         "stars": 0,
         "forks": 0,
         "pushedAt": "2026-11-19",
-        "commits": 53
+        "commits": 54
       },
       {
         "name": "Hangeul245",
@@ -139,7 +139,7 @@
         "description": "클라우드 환경에서의 랜섬웨어 차단 서비스 구축",
         "language": "C",
         "stars": 0,
-        "forks": 1,
+        "forks": 2,
         "pushedAt": "2025-06-17",
         "commits": 98
       },
@@ -176,5 +176,5 @@
     ],
     "followers": 1
   },
-  "updatedAt": "2026-11-19"
+  "updatedAt": "2026-11-20"
 }
