@@ -3,14 +3,14 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 53,
+    "total": 56,
     "categories": [
       {
-        "name": "Reversing",
-        "count": 11
+        "name": "Project",
+        "count": 14
       },
       {
-        "name": "Project",
+        "name": "Reversing",
         "count": 11
       },
       {
@@ -40,6 +40,24 @@
     ],
     "recent": [
       {
+        "title": "개인 프로젝트 - AIDR(12: 해시 검사기 및 판정)",
+        "url": "https://hangeulsprogram.tistory.com/62",
+        "date": "2026-11-23",
+        "category": "Project"
+      },
+      {
+        "title": "개인 프로젝트 - AIDR(11: 파일 형식 식별)",
+        "url": "https://hangeulsprogram.tistory.com/61",
+        "date": "2026-11-23",
+        "category": "Project"
+      },
+      {
+        "title": "개인 프로젝트 - AIDR(10: 등급 판정 CI)",
+        "url": "https://hangeulsprogram.tistory.com/60",
+        "date": "2026-11-23",
+        "category": "Project"
+      },
+      {
         "title": "개인 프로젝트 - AIDR(9: 논문 복기 및 재정비)",
         "url": "https://hangeulsprogram.tistory.com/59",
         "date": "2026-11-19",
@@ -68,24 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/55",
         "date": "2026-11-16",
         "category": "Project"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(4: LightGBM과 EMBER)",
-        "url": "https://hangeulsprogram.tistory.com/54",
-        "date": "2026-11-16",
-        "category": ""
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(3: YARA 룰 작성)",
-        "url": "https://hangeulsprogram.tistory.com/53",
-        "date": "2026-11-16",
-        "category": "Project"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(2: PE 파일 구조)",
-        "url": "https://hangeulsprogram.tistory.com/52",
-        "date": "2026-11-14",
-        "category": "Project"
       }
     ]
   },
@@ -94,14 +94,24 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "AIDR",
+        "url": "https://github.com/Hangeul245/AIDR",
+        "description": "AI 기반 통합 백신",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-23",
+        "commits": 6
+      },
+      {
         "name": "Hangeul245.github.io",
         "url": "https://github.com/Hangeul245/Hangeul245.github.io",
         "description": "포트폴리오",
         "language": "HTML",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-11-22",
-        "commits": 60
+        "pushedAt": "2026-11-23",
+        "commits": 61
       },
       {
         "name": "Hangeul245",
@@ -112,16 +122,6 @@
         "forks": 0,
         "pushedAt": "2026-11-12",
         "commits": 3
-      },
-      {
-        "name": "AIDR",
-        "url": "https://github.com/Hangeul245/AIDR",
-        "description": "AI 기반 통합 백신",
-        "language": "",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-11-12",
-        "commits": 2
       },
       {
         "name": "SCSP",
