@@ -94,6 +94,16 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "Hangeul245.github.io",
+        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
+        "description": "포트폴리오",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-23",
+        "commits": 62
+      },
+      {
         "name": "AIDR",
         "url": "https://github.com/Hangeul245/AIDR",
         "description": "AI 기반 통합 백신",
@@ -102,16 +112,6 @@
         "forks": 0,
         "pushedAt": "2026-11-23",
         "commits": 6
-      },
-      {
-        "name": "Hangeul245.github.io",
-        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
-        "description": "포트폴리오",
-        "language": "HTML",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-11-23",
-        "commits": 61
       },
       {
         "name": "Hangeul245",
@@ -176,5 +176,5 @@
     ],
     "followers": 1
   },
-  "updatedAt": "2026-11-23"
+  "updatedAt": "2026-11-24"
 }
