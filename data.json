@@ -3,11 +3,11 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 56,
+    "total": 57,
     "categories": [
       {
         "name": "Project",
-        "count": 16
+        "count": 17
       },
       {
         "name": "Reversing",
@@ -39,6 +39,12 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트: AIDR(13: 스캐너에 YARA 붙이기)",
+        "url": "https://hangeulsprogram.tistory.com/63",
+        "date": "2026-11-24",
+        "category": "Project/AIDR"
+      },
       {
         "title": "개인 프로젝트 - AIDR(12: 해시 검사기 및 판정)",
         "url": "https://hangeulsprogram.tistory.com/62",
@@ -80,12 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/56",
         "date": "2026-11-17",
         "category": "Project/AIDR"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(5: 오피스 매크로와 악성 스크립트 난독화 패턴)",
-        "url": "https://hangeulsprogram.tistory.com/55",
-        "date": "2026-11-16",
-        "category": "Project/AIDR"
       }
     ]
   },
@@ -94,6 +94,16 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "AIDR",
+        "url": "https://github.com/Hangeul245/AIDR",
+        "description": "AI 기반 통합 백신",
+        "language": "Python",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-24",
+        "commits": 7
+      },
+      {
         "name": "Hangeul245.github.io",
         "url": "https://github.com/Hangeul245/Hangeul245.github.io",
         "description": "포트폴리오",
@@ -101,17 +111,7 @@
         "stars": 0,
         "forks": 0,
         "pushedAt": "2026-11-24",
-        "commits": 64
-      },
-      {
-        "name": "AIDR",
-        "url": "https://github.com/Hangeul245/AIDR",
-        "description": "AI 기반 통합 백신",
-        "language": "Python",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-11-23",
-        "commits": 6
+        "commits": 65
       },
       {
         "name": "Hangeul245",
