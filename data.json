@@ -7,7 +7,7 @@
     "categories": [
       {
         "name": "Project",
-        "count": 14
+        "count": 16
       },
       {
         "name": "Reversing",
@@ -43,49 +43,49 @@
         "title": "개인 프로젝트 - AIDR(12: 해시 검사기 및 판정)",
         "url": "https://hangeulsprogram.tistory.com/62",
         "date": "2026-11-23",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(11: 파일 형식 식별)",
         "url": "https://hangeulsprogram.tistory.com/61",
         "date": "2026-11-23",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(10: 등급 판정 CI)",
         "url": "https://hangeulsprogram.tistory.com/60",
         "date": "2026-11-23",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(9: 논문 복기 및 재정비)",
         "url": "https://hangeulsprogram.tistory.com/59",
         "date": "2026-11-19",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(8: Minifilter)",
         "url": "https://hangeulsprogram.tistory.com/58",
         "date": "2026-11-19",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(7: LLM 테스트 2탄)",
         "url": "https://hangeulsprogram.tistory.com/57",
         "date": "2026-11-18",
-        "category": ""
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(6: LLM 테스트)",
         "url": "https://hangeulsprogram.tistory.com/56",
         "date": "2026-11-17",
-        "category": "Project"
+        "category": "Project/AIDR"
       },
       {
         "title": "개인 프로젝트 - AIDR(5: 오피스 매크로와 악성 스크립트 난독화 패턴)",
         "url": "https://hangeulsprogram.tistory.com/55",
         "date": "2026-11-16",
-        "category": "Project"
+        "category": "Project/AIDR"
       }
     ]
   },
@@ -100,8 +100,8 @@
         "language": "HTML",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-11-23",
-        "commits": 62
+        "pushedAt": "2026-11-24",
+        "commits": 64
       },
       {
         "name": "AIDR",
