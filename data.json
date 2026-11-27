@@ -3,11 +3,11 @@
     "title": "안네의 디ㅈITㅓㄹ일기",
     "url": "https://hangeulsprogram.tistory.com/",
     "since": "2023-08-30",
-    "total": 59,
+    "total": 61,
     "categories": [
       {
         "name": "Project",
-        "count": 19
+        "count": 21
       },
       {
         "name": "Reversing",
@@ -39,6 +39,18 @@
       }
     ],
     "recent": [
+      {
+        "title": "개인 프로젝트 - SCSP(2)",
+        "url": "https://hangeulsprogram.tistory.com/67",
+        "date": "2026-11-27",
+        "category": "Project/SCSP"
+      },
+      {
+        "title": "개인 프로젝트 - AIDR(16: LightGBM 학습과 임계값)",
+        "url": "https://hangeulsprogram.tistory.com/66",
+        "date": "2026-11-27",
+        "category": "Project/AIDR"
+      },
       {
         "title": "개인 프로젝트 - AIDR(15: EMBER2024 벡터화)",
         "url": "https://hangeulsprogram.tistory.com/65",
@@ -74,18 +86,6 @@
         "url": "https://hangeulsprogram.tistory.com/60",
         "date": "2026-11-23",
         "category": "Project/AIDR"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(9: 논문 복기 및 재정비)",
-        "url": "https://hangeulsprogram.tistory.com/59",
-        "date": "2026-11-19",
-        "category": "Project/AIDR"
-      },
-      {
-        "title": "개인 프로젝트 - AIDR(8: Minifilter)",
-        "url": "https://hangeulsprogram.tistory.com/58",
-        "date": "2026-11-19",
-        "category": "Project/AIDR"
       }
     ]
   },
@@ -94,14 +94,24 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "SCSP",
+        "url": "https://github.com/Hangeul245/SCSP",
+        "description": "VScode extension for Source code security",
+        "language": "TypeScript",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-27",
+        "commits": 26
+      },
+      {
         "name": "AIDR",
         "url": "https://github.com/Hangeul245/AIDR",
         "description": "AI 기반 통합 백신",
         "language": "Python",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-11-26",
-        "commits": 12
+        "pushedAt": "2026-11-27",
+        "commits": 16
       },
       {
         "name": "Hangeul245.github.io",
@@ -110,8 +120,8 @@
         "language": "HTML",
         "stars": 0,
         "forks": 0,
-        "pushedAt": "2026-11-26",
-        "commits": 70
+        "pushedAt": "2026-11-27",
+        "commits": 71
       },
       {
         "name": "Hangeul245",
@@ -122,16 +132,6 @@
         "forks": 0,
         "pushedAt": "2026-11-12",
         "commits": 3
-      },
-      {
-        "name": "SCSP",
-        "url": "https://github.com/Hangeul245/SCSP",
-        "description": "VScode extension for Source code security",
-        "language": "TypeScript",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-05-16",
-        "commits": 11
       },
       {
         "name": "Kapston",
