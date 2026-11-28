@@ -94,6 +94,16 @@
     "publicRepos": 8,
     "repos": [
       {
+        "name": "Hangeul245.github.io",
+        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
+        "description": "포트폴리오",
+        "language": "HTML",
+        "stars": 0,
+        "forks": 0,
+        "pushedAt": "2026-11-28",
+        "commits": 73
+      },
+      {
         "name": "AIDR",
         "url": "https://github.com/Hangeul245/AIDR",
         "description": "AI 기반 통합 백신",
@@ -102,16 +112,6 @@
         "forks": 0,
         "pushedAt": "2026-11-27",
         "commits": 17
-      },
-      {
-        "name": "Hangeul245.github.io",
-        "url": "https://github.com/Hangeul245/Hangeul245.github.io",
-        "description": "포트폴리오",
-        "language": "HTML",
-        "stars": 0,
-        "forks": 0,
-        "pushedAt": "2026-11-27",
-        "commits": 72
       },
       {
         "name": "SCSP",
